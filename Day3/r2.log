@@ -1,0 +1,12 @@
+Device Name: switches
+Device Name: routers
+Device Name: firewalls
+Device Name: access points
+Device Name: ethernet
+----------------Done-------------------------
+ID: A-123
+app: demoApp
+port: 8080
+fname: /etc/app.cfg
+----------------Done-------------------------
+Created on Wed Oct  7 10:59:21 2026
