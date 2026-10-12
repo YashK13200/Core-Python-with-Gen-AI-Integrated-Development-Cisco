@@ -1,0 +1,18 @@
+Customer Data Quality & Validation Automation Tool
+Report generation timestamp: 2026-10-11T20:00:35
+Input file name: customers.csv
+
+Total records processed: 21
+Valid record count: 6
+Rejected record count: 15
+Duplicate customer ID count: 2
+Exact duplicate record count: 1
+Missing required-field error count: 7
+Invalid email count: 3
+Invalid phone count: 3
+Invalid registration date count: 3
+Overall data-quality percentage: 28.57%
+
+Data-quality percentage = (valid records / total records processed) x 100.
+A record may contribute to several validation-error counts but is counted once as valid or rejected.
+Conclusion: The main issues were missing fields, invalid formats, and duplicate records.

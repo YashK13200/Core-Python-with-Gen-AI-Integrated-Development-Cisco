@@ -1,0 +1,22 @@
+customer_id,name,email,phone,city,date_of_registration
+C001,Aarav Sharma,aarav@example.com,9876543210,Delhi,2026-01-10
+C002,Priya Patel,priya.patel@example.com,8765432109,Mumbai,2026-02-15
+C003,Rahul Verma,rahul@gmail.com,7654321098,Pune,2025-12-01
+C004,Neha Singh,neha@example.com,9123456780,Jaipur,2026-03-05
+C005,Vikram Rao,vikram@,9876501234,Chennai,2026-01-22
+C006,,missing.name@example.com,9876543211,Kochi,2026-01-12
+C007,Amit Joshi,amitgmail.com,9876543212,Indore,2026-01-14
+C008,Sara Khan,sara@example.com,123,Bhopal,2026-01-16
+C009,Rohan Das,rohan@example.com,98765abc10,Surat,2026-01-18
+C010,Meera Nair,meera@example.com,9876543214,,2026-01-20
+C011,Dev Mehta,dev@example.com,9876543215,Delhi,2026-02-30
+C012,Isha Roy,isha@example.com,9876543216,Kolkata,invalid-date
+C013,Kabir Shah,kabir@example.com,9876543217,Nagpur,2026-02-10
+C013,Duplicate ID,duplicate@example.com,9876543218,Nagpur,2026-02-11
+"C014","  Anil Gupta  "," anil@example.com "," 9876543219 ","  Noida "," 2026-02-12 "
+,No ID,noid@example.com,9876543220,Agra,2026-02-13
+C015,Missing Email,,9876543221,Goa,2026-02-14
+C016,Missing Phone,nophone@example.com,,Mysuru,2026-02-16
+C017,Missing City,nocity@example.com,9876543223,,2026-02-17
+C018,Multiple Errors,bad-email,111,,not-a-date
+C003,Rahul Verma,rahul@gmail.com,7654321098,Pune,2025-12-01

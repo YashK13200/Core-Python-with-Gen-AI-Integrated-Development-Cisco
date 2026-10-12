@@ -1,0 +1,16 @@
+customer_id,name,email,phone,city,date_of_registration,error_reasons
+C005,Vikram Rao,vikram@,9876501234,Chennai,2026-01-22,invalid email format
+C006,,missing.name@example.com,9876543211,Kochi,2026-01-12,missing required field: name
+C007,Amit Joshi,amitgmail.com,9876543212,Indore,2026-01-14,invalid email format
+C008,Sara Khan,sara@example.com,123,Bhopal,2026-01-16,invalid phone format
+C009,Rohan Das,rohan@example.com,98765abc10,Surat,2026-01-18,invalid phone format
+C010,Meera Nair,meera@example.com,9876543214,,2026-01-20,missing required field: city
+C011,Dev Mehta,dev@example.com,9876543215,Delhi,2026-02-30,invalid registration date (expected YYYY-MM-DD)
+C012,Isha Roy,isha@example.com,9876543216,Kolkata,invalid-date,invalid registration date (expected YYYY-MM-DD)
+C013,Duplicate ID,duplicate@example.com,9876543218,Nagpur,2026-02-11,duplicate customer ID
+,No ID,noid@example.com,9876543220,Agra,2026-02-13,missing required field: customer_id
+C015,Missing Email,,9876543221,Goa,2026-02-14,missing required field: email
+C016,Missing Phone,nophone@example.com,,Mysuru,2026-02-16,missing required field: phone
+C017,Missing City,nocity@example.com,9876543223,,2026-02-17,missing required field: city
+C018,Multiple Errors,bad-email,111,,not-a-date,missing required field: city; invalid email format; invalid phone format; invalid registration date (expected YYYY-MM-DD)
+C003,Rahul Verma,rahul@gmail.com,7654321098,Pune,2025-12-01,duplicate customer ID; exact duplicate record
